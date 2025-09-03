@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@mail.com",
+      "role": "admin",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "Jose",
+      "email": "jose@mail.com",
+      "role": "user",
+      "password": "jose123"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Baguette",
+      "code": "BAG123",
+      "price": "2000.00",
+      "imgUrl": "https://images.squarespace-cdn.com/content/v1/5216e267e4b0cb074c79fdb3/1490154175866-Z95ZGN44Y2OR9Y4XOU4M/image-asset.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Tortillas",
+      "code": "TOR456",
+      "price": 250.00,
+      "imgUrl": "https://vocescriticas-s3.cdn.net.ar/s3i233/2023/08/vocescriticas/images/18/23/182327_c5718d39fae3aa2d3d3b6fe6b7480acabb0a313f554c3a2b6e9944368512bb9b/md.webp"
+    },
+    {
+      "id": "3",
+      "name": "Croissant",
+      "code": "CRO789",
+      "price": 500.00,
+      "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXoyVFbZylbtl68Q6UtKesUIhDcrtfcjX_oA&s"
+    },
+    {
+      "id": "4",
+      "name": "Facturas",
+      "code": "FAC012",
+      "price": 350.00,
+      "imgUrl": "https://i.ytimg.com/vi/A4zivIfgxTE/maxresdefault.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Muffins",
+      "code": "MUF345",
+      "price": 400.00,
+      "imgUrl": "https://eggs.ca/wp-content/uploads/2015/08/One-Bowl-Banana-Chocolate-Chip-Muffins-1664x832-1.jpg"
+    },
+   {
+      "id": "6",
+      "name": "Alfajores",
+      "code": "ALF678",
+      "price": "150.00",
+      "imgUrl": "https://recetasdecocina.elmundo.es/wp-content/uploads/2024/05/alfajores-1024x683.jpg"
+    }
+  ]
+}
