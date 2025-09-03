@@ -1,16 +1,12 @@
-function Footer() {
-  return (
-    <footer className="bg-gray-800 text-white py-4">
-      <div className="container mx-auto text-center">
-        <p className="text-sm">
-          &copy; {new Date().getFullYear()} My Website. All rights reserved.
-        </p>
-        <p className="text-xs mt-2">
-          Built with React and Tailwind CSS
-        </p>
-      </div>
-    </footer>
-  );
-}
+import React from 'react';
+import './Footer.css';
+
+const Footer = () => (
+  <footer className="footer">
+    <div>© 2025 Panadería Delicias. Todos los derechos reservados.</div>
+    <div>Contacto: info@panaderiadelicias.com | Tel: (011) 1234-5678</div>
+    <div>Hecho con React | UTN Programación 4</div>
+  </footer>
+);
 
 export default Footer;
